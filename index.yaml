@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  dns:
+  - apiVersion: v2
+    created: "2022-02-28T19:50:22.994751509Z"
+    description: A Helm chart to integrate external-dns and powerdns in a statless
+      way
+    digest: 8e5747cd6f2918406ec4171d0241f37e23c785e53297fb4e7318dd24167f79f7
+    maintainers:
+    - name: kang
+      url: https://github.com/kang-makes
+    name: dns
+    type: application
+    urls:
+    - https://github.com/txqueuelen/pdns-stateless/releases/download/dns-1.1.0/dns-1.1.0.tgz
+    version: 1.1.0
+  pdns-stateless:
+  - apiVersion: v2
+    created: "2022-02-28T20:22:47.729780105Z"
+    description: A Helm chart to integrate external-dns and powerdns in a stateless
+      way
+    digest: 71b51f54040e6dca71aba05411fc2d80cf8b964af2081e1ec06a4b492bfa85b3
+    maintainers:
+    - name: kang
+      url: https://github.com/kang-makes
+    name: pdns-stateless
+    type: application
+    urls:
+    - https://github.com/txqueuelen/pdns-stateless/releases/download/pdns-stateless-1.1.0/pdns-stateless-1.1.0.tgz
+    version: 1.1.0
+generated: "2022-02-28T20:22:47.729795506Z"
